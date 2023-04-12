@@ -10,8 +10,12 @@ Créez votre application avec un framework react comme `vite` ou `create-react-a
 
 # But
 Vous devez créer une application qui va afficher
-3 citations trouvées de manière aléatoire à partir d'une
+des citations trouvées de manière aléatoire à partir d'une
 liste de citations fournie.
+
+Vous devez avoir un champ de saisie qui indique le nombre de citation à avoir. Quand on entre une valeur, le bon nombres de citations sont affichées.
+
+Bonus - Vous pouvez aussi avoir un bouton qui permet de réinitialiser les citations. Celui-ci choisi de nouvelle citations à afficher en gardant le nombre donné dans la boîte de saisie.
 
 # Ajout des quotes
 
@@ -21,7 +25,4 @@ liste de citations fournie.
       * `const quotes = require('./quotes.json')` (pour un projet purement node comme create-react-app)
 
 
-# Exemple du projet terminé
-(Les citations changent à chaque refresh.)
-![QuotesApp](exemple.png)
 
